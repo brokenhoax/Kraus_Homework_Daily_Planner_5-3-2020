@@ -22,11 +22,11 @@
     rel="stylesheet" 
     href="./style.css" 
   />
-  <title>Work Day Scheduler</title>
+  <title>My Schedule</title>
 </head>
 <body>
   <header>
-    <h1>Work Day Scheduler</h1>
+    <h1>My Schedule</h1>
   </header>
     <div id="displayMoment"></div>
   <br>
@@ -43,7 +43,7 @@
     </ul>
   </div>
 
-  <h1>Meeting Planner</h1>
+  <h1>Daily Planner</h1>
 <div class="table-container">
   <table class="table-schedule">
   <thead>
@@ -54,83 +54,83 @@
     </tr>
   </thead>
     <tbody>
-      <tr>
-        <td>9:00AM</td>
-        <td><input type="text" id="row-1-todo" name="row-1-todo" placeholder ="Open" value=""></td>
+      <tr id="row-9">
+        <td id="hourOne">9:00AM</td>
+        <td><input type="text" id="row-9-todo" placeholder ="Open" value=""></td>
         <td>
-          <button class="nine-save-button" type="submit">
+          <button id="save-9-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr>
       <tr>
-        <td>10:00AM</td>
-        <td><input type="text" id="row-2-todo" name="row-2-todo" placeholder ="Open" value=""></td>
+        <td id="hourTwo">10:00AM</td>
+        <td><input type="text" id="row-10-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="ten-save-button" type="submit">
+          <button id="save-10-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr> 
       <tr>
-        <td>11:00AM</td>
-        <td><input type="text" id="row-3-todo" name="row-3-todo" placeholder ="Open" value=""></td>
+        <td id="hourThree">11:00AM</td>
+        <td><input type="text" id="row-11-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="eleven-save-button" type="submit">
+          <button id="save-11-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr>
       <tr>
-        <td>12:00PM</td>
-        <td><input type="text" id="row-4-todo" name="row-4-todo" placeholder ="Open" value=""></td>
+        <td id="hourFour">12:00PM</td>
+        <td><input type="text" id="row-12-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="twelve-save-button" type="submit">
+          <button id="save-12-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr>
       <tr>
-        <td>1:00PM</td>
-        <td><input type="text" id="row-5-todo" name="row-5-todo" placeholder ="Open" value=""></td>
+        <td id="hourFive">1:00PM</td>
+        <td><input type="text" id="row-1-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="one-save-button" type="submit">
+          <button id="save-1-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr>
       <tr>
-        <td>2:00PM</td>
-        <td><input type="text" id="row-6-todo" name="row-6-todo" placeholder ="Open" value=""></td>
+        <td id="hourSix">2:00PM</td>
+        <td><input type="text" id="row-2-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="two-save-button" type="submit">
+          <button id="save-2-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr>
       <tr>
-        <td>3:00PM</td>
-        <td><input type="text" id="row-7-todo" name="row-7-todo" placeholder ="Open" value=""></td>
+        <td id="hourSeven">3:00PM</td>
+        <td><input type="text" id="row-3-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="three-save-button" type="submit">
+          <button class="save-3-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr> 
       <tr>
-        <td>4:00PM</td>
-        <td><input type="text" id="row-8-todo" name="row-8-todo" placeholder ="Open" value=""></td>
+        <td id="hourEight">4:00PM</td>
+        <td><input type="text" id="row-4-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="four-save-button" type="submit">
+          <button class="save-4-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
       </tr> 
       <tr>
-        <td>5:00PM</td>
-        <td><input type="text" id="row-9-todo" name="row-9-todo" placeholder ="Open" value=""></td>
+        <td id="hourNine">5:00PM</td>
+        <td><input type="text" id="row-5-todo"  placeholder ="Open" value=""></td>
         <td>
-          <button class="five-save-button" type="submit">
+          <button class="save-5-btn" type="submit">
             <i class="fas fa-plus-square"></i>
           </button>
         </td>
@@ -138,9 +138,6 @@
     </tbody>
   </table>
 </div>
-
-
-
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="./app.js"></script>
